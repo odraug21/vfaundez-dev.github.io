@@ -12,3 +12,31 @@ body {
   background-color: #330033;
   background-color: #09122C;
 }
+
+.bg-glass {
+  background: rgba(45, 51, 107, 0.8);
+  border-radius: 0 0 26px 26px;
+  border: 1px solid rgba(45, 51, 107, 0.2);
+}
+
+/*-- Navbar --*/
+
+.navbar-nav .nav-item .nav-link {
+  color: #F7F7F7;
+  font-weight: 600;
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+  color: #0A97B0;
+}
+
+.offcanvas-header {
+  border-bottom: 1px solid rgba(45, 51, 107, 0.6);
+}
+
+@media(max-width: 991px) {
+  .sidebar {
+    background: rgba(45, 51, 107, 0.8);
+    backdrop-filter: blur(10px);
+  }
+}
