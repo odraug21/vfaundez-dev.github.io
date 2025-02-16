@@ -168,10 +168,6 @@ body {
   border: 2px solid rgba(45, 51, 107, 0.8);
 }
 
-.card-portfolio img {
-  max-height: 270px;
-}
-
 .skills-section .badge {
   margin-right: 0.5rem;
   background-color: #23486A;
