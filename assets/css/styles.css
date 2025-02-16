@@ -40,3 +40,67 @@ body {
     backdrop-filter: blur(10px);
   }
 }
+
+/*-- Section --*/
+
+.section-title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.section-title {
+  font-size: 2.25rem;
+  font-weight: 600;
+  color: #F7F7F7;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding: 0.5rem 1.5rem;
+  border: 1px solid #0A97B0;
+  background-color: rgba(10, 151, 176, 0.1);
+}
+
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 1.75rem;
+    letter-spacing: 2px;
+    padding: 0.4rem 1.2rem;
+  }
+}
+
+/*-- Home --*/
+
+.cv-subtitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #0A97B0;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid rgba(10, 151, 176, 0.2);
+}
+
+.cv-personal-info li {
+  margin-bottom: 0.5rem;
+  color: #F7F7F7;
+}
+
+.cv-personal-info strong {
+  color: #0A97B0;
+  margin-right: 0.5rem;
+}
+
+.cv-summary {
+  color: #F7F7F7;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .cv-subtitle {
+    font-size: 1.25rem;
+  }
+  
+  .cv-personal-info, .cv-summary {
+    font-size: 0.9rem;
+  }
+}
