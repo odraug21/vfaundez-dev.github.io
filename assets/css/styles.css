@@ -159,3 +159,21 @@ body {
     height: 12px;
   }
 }
+
+/*-- Card --*/
+
+.card-portfolio {
+  background: rgba(45, 51, 107, 0.6);
+  border-radius: 0 0 26px 26px;
+  border: 2px solid rgba(45, 51, 107, 0.8);
+}
+
+.card-portfolio img {
+  max-height: 270px;
+}
+
+.skills-section .badge {
+  margin-right: 0.5rem;
+  background-color: #23486A;
+  color: #FFF2F2;
+}
